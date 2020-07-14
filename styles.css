@@ -1,0 +1,51 @@
+*{
+	font-family: "Montserrat", sans-serif;
+	color: white;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: "Montserrat", sans-serif;
+}
+
+h1{
+	font-size: 5em;
+	font-weight: 700;
+}
+
+h3{
+	font-size: 2em;
+	font-weight: 500;
+}
+
+.pad-around{
+	padding: 1vw 0 1vw 0;
+}
+
+#update{
+	color: black;
+	font-weight: 500;
+ 	background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
+}
+
+.button {
+	font-weight: 500;
+  	margin: 10px;
+  	padding: 20px 50px 20px 50px;
+  	text-align: center;
+  	transition: 0.5s;
+  	background-size: 200% auto;
+  	color: black;
+  	border-radius: 30px;
+ }
+
+.button:hover {
+  	background-position: right center; /* change the direction of the change here */
+}
+
+.btn {
+  	background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+}
+
+.foot{
+	background-image: linear-gradient(to right, #efb24d 0%, #f4bc8a 51%, #f29b83 100%);
+}
